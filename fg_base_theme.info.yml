@@ -1,0 +1,19 @@
+name: 'FG Base Theme'
+type: theme
+description: 'A bootstrap base theme for FG Base sites.'
+core: 8.x
+base theme: bootstrap4
+
+libraries-override:
+  bootstrap4/global: fg_base_theme/global
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: Breadcrumb
+  highlighted: 'Highlighted'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_first: 'Footer first'

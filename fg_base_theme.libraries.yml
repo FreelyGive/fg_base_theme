@@ -1,0 +1,9 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+  dependencies:
+    - bootstrap4/bootstrap.dropdown
+    - bootstrap4/bootstrap.collapse
+    - bootstrap4/bootstrap.button

@@ -1,0 +1,13 @@
+// Import Bootstrap's variables.
+@import "../../bootstrap4/scss/variables";
+
+// Colors
+$bg-light:      $gray-lightest  !default;
+$bg-highlight:  $gray-lighter   !default;
+$font-light:    $white          !default;
+$font-strong:   $purple         !default;
+$font-md:       $gray-light     !default;
+$font-dark:     $gray-dark      !default;
+$border-strong: $purple         !default;
+
+$body-bg: $white;

@@ -1,0 +1,94 @@
+@import "../../bootstrap4/scss/layout";
+
+.layout-content,
+.layout-sidebar-first {
+  margin-bottom: $content-padding;
+}
+
+.header {
+  background: $white;
+  border-bottom: $font-md;
+  color: $font-md;
+
+  .navbar {
+    border-bottom: 1px solid $font-dark;
+  }
+
+  .navbar-nav {
+    margin: 0;
+
+    .nav-link {
+      display: inline-block;
+      font-weight: bold;
+      color: $font-dark !important;
+      padding: 0;
+      margin: 0;
+    }
+    .nav-item.active .nav-link {
+      border-bottom: 3px solid $border-strong;
+    }
+  }
+
+  .header__logo {
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    display: inline-block;
+  }
+
+  a.dropdown-toggle {
+    color: $font-strong;
+  }
+}
+
+.page-highlighted {
+  background: $bg-light;
+  background-image: url(https://www.southwesttrains.co.uk/globalassets/images/small-banners/contact-help.jpeg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    background: rgba(237, 243, 247, .75);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  h1 {
+    overflow: hidden;
+    padding: 50px 0;
+    position: relative;
+    color: $font-dark;
+    text-align: left;
+    text-transform: capitalize;
+  }
+}
+
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.layout-sidebar-first {
+  div {
+
+    &> img {
+      max-width: 100%;
+      height: auto;
+
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 20px;
+      }
+    }
+
+    + div > img {
+      border-top: 5px solid $border-strong;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{% include directory ~ '/templates/parts/header.html.twig' %}
+
+<div class="page-highlighted">
+  <div class="container">
+    {{ page.highlighted }}
+  </div>
+</div>
+
+{%
+set classes = [
+'layout-main',
+'row'
+]
+%}
+<div class="container">
+  <main{{ attributes.addClass(classes).setAttribute('role', 'main') }}>
+
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    <div class="layout-content col-sm-12 col-md-12 col-lg-12 flex-first">
+      {{ page.breadcrumb }}
+
+      {{ page.help }}
+
+      {{ page.content }}
+    </div>
+    {%
+    set classes = [
+    'layout-main',
+    ]
+    %}
+  </main>
+</div>

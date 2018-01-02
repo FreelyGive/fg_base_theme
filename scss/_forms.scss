@@ -1,0 +1,85 @@
+@import "../../bootstrap4/scss/forms";
+
+form {
+  .row input {
+    width: 100% !important;
+  }
+
+  .form-group {
+    max-width: 100%;
+
+    > .form-group {
+      margin-bottom: 0;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0;
+    }
+  }
+
+  input.form-control {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  input[type="date"] {
+    position: relative;
+    padding: 1rem;
+    &::-webkit-inner-spin-button {
+      display: none;
+      -webkit-appearance: none;
+    }
+
+    &::-webkit-calendar-picker-indicator:focus,
+    &::-webkit-calendar-picker-indicator {
+      background: none;
+      -webkit-appearance: none;
+      color: rgba(0, 0, 0, 0);
+      opacity: 1
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      background: url(../../fg_base_theme/icons/calendar.svg) no-repeat;
+      background-size: 25px 25px;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      top: 0.7rem;
+      right: 1rem;
+      pointer-events: none;
+    }
+  }
+
+  .form-required:after {
+    content: '';
+    vertical-align: super;
+    display: inline-block;
+    background-image: url(../../../core/misc/icons/ee0000/required.svg);
+    background-repeat: no-repeat;
+    background-size: 6px 6px;
+    width: 6px;
+    height: 6px;
+    margin: 0 0.3em;
+  }
+
+  .custom-file {
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.btn[data-toggle="button"] {
+  input[type="radio"],
+  input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+  }
+}

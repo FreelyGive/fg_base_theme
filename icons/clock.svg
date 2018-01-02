@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="site-icon__svg" width="12" height="12" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>clock</title>
+    <g style="fill:#777;" id="2ef080bb-7c9b-4474-926b-3d7849c4261a" data-name="&lt;Group&gt;">
+        <path id="6f25c079-5732-4911-b2ec-e892b0935953" data-name="&lt;Compound Path&gt;" d="M6,0a6,6,0,1,0,6,6A6,6,0,0,0,6,0Zm5,6A5,5,0,1,1,6,.94,5.06,5.06,0,0,1,11,6Z"/>
+        <path id="3a41c44c-9d03-478b-956e-38d3ec402503" data-name="&lt;Path&gt;" d="M8.6,4.49L6.27,5.54V2.76a0.48,0.48,0,0,0-.16-0.37,0.52,0.52,0,0,0-.85.37v3.6a0.52,0.52,0,0,0,.25.44,0.53,0.53,0,0,0,.51,0L9,5.38a0.48,0.48,0,0,0,.26-0.65A0.49,0.49,0,0,0,8.6,4.49Z"/>
+    </g>
+</svg>
